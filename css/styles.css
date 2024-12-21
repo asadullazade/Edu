@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+}
+body {
+  width: 1550px;
+  height: 400px;
+  gap: 80px;
+  padding: 34px;
+  flex-wrap: wrap;
+}
+.bio {
+  display: flex;
+  gap: 60px;
+  margin-right: 400px;
+  align-items: center;
+}
+.edu {
+  width: 74px;
+  height: 42px;
+  left: 100px;
+  top: 35px;
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.items {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  width: 95px;
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
+}
+.input-items {
+  display: flex;
+  gap: 40px;
+}
+.input {
+  background-color: white;
+  border: 1px solid darkgrey;
+  width: 419px;
+  height: 45px;
+  padding: 14px 16px;
+  border-radius: 24px;
+  position: relative;
+  padding: 14px 66px;
+}
+.input-style {
+  border-style: none;
+  color: rgba(32, 32, 32, 0.25);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  width: 151px;
+  height: 17px;
+  left: 1048px;
+  top: 48px;
+  color: rgba(32, 32, 32, 0.25);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login {
+  width: 140px;
+  height: 53px;
+  border-radius: 5px;
+  background: rgb(239, 131, 84);
+  color: white;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px 10px 30px;
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  align-items: center;
+}
+.icon {
+  position: absolute;
+  left: 18px;
+}
+
+.account {
+  width: 179px;
+  height: 22px;
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.head-name {
+  margin-bottom: 40px;
+}
+
+.h1 {
+  width: 507px;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 500;
+}
+.learn-style {
+  width: 507px;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 500;
+  color: rgb(239, 131, 84);
+}
+.lorem {
+  color: rgba(32, 32, 32, 0.75);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 697px;
+  height: 79px;
+  margin-bottom: 60px;
+}
+
+.learn-more {
+  border-radius: 5px;
+  background: rgb(239, 131, 84);
+  width: 235px;
+  height: 76px;
+  padding: 20px 34px 20px 34px;
+  margin-bottom: 60px;
+}
+.btn-learn {
+  color: rgb(255, 255, 255);
+  background: rgb(239, 131, 84);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  border-style: none;
+}
+.students-img {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: -25;
+  padding: 0px;
+}
+.students {
+  width: 357px;
+  height: 24px;
+  color: rgba(32, 32, 32, 0.75);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.students-item {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.photo {
+  margin-bottom: 100px;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.top.uni {
+  width: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12;
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.photo-1 {
+  background-color: white;
+  width: 538px;
+  height: 349px;
+}
+
+.list {
+  display: flex;
+  margin-bottom: 140px;
+}
+.photos {
+  display: flex;
+}
+.experience-title {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 80px;
+}
+.our-experience {
+  display: flex;
+  gap: 90px;
+  position: relative;
+}
+
+.profession {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profession-title {
+  display: flex;
+  gap: 8px;
+}
+
+.star {
+  position: absolute;
+  left: -30px;
+  top: -36px;
+}
+.learner {
+  display: flex;
+}
+.paragraf {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30;
+  color: rgb(210, 82, 26);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61px;
+  margin: 30px 0px;
+}
+
+.footer {
+  background: rgb(239, 131, 84);
+  color: white;
+  width: 1920px;
+  display: flex;
+  justify-content: space-between;
+}
+.address {
+  margin-bottom: 24px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.menu {
+  display: flex;
+  gap: 100px;
+}
+
+.section-four {
+  margin-bottom: 40px;
+}
+
+.learner-paragraf {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 80px;
+}
